@@ -1,0 +1,15 @@
+$rendersize: 100%;
+
+html, body {
+    overflow: hidden;
+    width: $rendersize;
+    height: $rendersize;
+    margin: 0;
+    padding: 0;
+}
+
+#renderCanvas {
+    width: $rendersize;
+    height: $rendersize;
+    touch-action: none;
+}
