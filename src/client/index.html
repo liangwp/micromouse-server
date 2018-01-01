@@ -5,10 +5,19 @@
     <title>testing title</title>
     
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="https://cdn.rawgit.com/brython-dev/brython/3.4.0/www/src/brython.js"></script>
     <script src="js/myscript.js"></script>
 </head>
 <body>
-    <div id="renderCanvas">Static Hello world</div>
+    <div id="justatest">Static Hello world</div>
+    <div id="for_brython">nothing yet</div>
+    
+    <script type="text/python">
+        from browser import window
+        window.test("called javascript global object from brython")
+        print("print statement from python (brython) code")
+    </script>
+    
 </body>
 </html>
 
